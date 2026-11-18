@@ -2,6 +2,15 @@ import sys
 def add(a,b):
     return a + b
 
+def substraction(a,b):
+    return a-b
+
+def sundation(a,b):
+    print("asndfjs")
+
+def addtion2(a,b):
+    return a+b
+
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Usage: python script.py <num1> <num2>")
@@ -11,3 +20,4 @@ if __name__ == "__main__":
     num2 = float(sys.argv[2])
     result = add(num1, num2)
     print(f"The sum of {num1} and {num2} is {result}")
+
