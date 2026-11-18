@@ -11,3 +11,6 @@ if __name__ == "__main__":
     num2 = float(sys.argv[2])
     result = add(num1, num2)
     print(f"The sum of {num1} and {num2} is {result}")
+
+def divison(a,b):
+    return a//b
